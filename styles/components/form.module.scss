@@ -1,0 +1,50 @@
+.form {
+      display: grid;
+      grid-gap: 1rem;
+
+      input {
+            padding: 1rem;
+            appearance: none;
+            border-radius: 0.5rem;
+            outline: none;
+      }
+
+      button {
+            padding: 1rem;
+            appearance: none;
+            border-radius: 0.5rem;
+            box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.16);
+            cursor: pointer;
+            color: white;
+            border: none;
+            outline: none;
+            &:hover {
+                  background: #3DA08F;
+                  font-weight: bold;
+            }
+      }
+}
+
+.formPrimary {
+      button {
+            background: #2F65F8
+      }
+}
+
+.formSecondary {
+      button {
+            background: #6B8BFF
+      }
+}
+
+@media screen and (min-width: 700px) {
+      .formPrimary {
+            grid-template-columns: 1.5fr 1fr;
+      }
+
+      .formSecondary {
+            button {
+                  width: 60%;
+            }
+      }
+}

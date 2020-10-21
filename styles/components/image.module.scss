@@ -1,0 +1,11 @@
+.image {
+      max-width: 100%;
+      grid-row: 1/2;
+      align-self: center;
+}
+
+@media screen and (min-width: 700px) {
+      .image {
+            grid-column: 2/3;
+      }
+}

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Open Sans";
+      text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+      font-family: "Raleway"
+}
+
+a {
+      font-size: 12px;
+}
+
+p {
+      font-size: 16px;
+}
+
+h1 {
+      font-size: 24px
+}
+
+h2 {
+      font-size: 20px
+}
+
+@media screen and (min-width: 700px) {
+      h1 {
+            font-size: 40px
+      }
+
+      h2 {
+            font-size: 32px
+      }
+
+      a {
+            font-size: 16px
+      }
+}

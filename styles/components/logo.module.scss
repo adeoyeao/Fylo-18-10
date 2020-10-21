@@ -1,0 +1,13 @@
+.logo {
+      width: 160px;
+}
+
+.logoPrimary {
+      width: 80px
+}
+
+@media screen and (min-width: 700px) {
+      .logoPrimary {
+            width: 160px
+      }
+}
