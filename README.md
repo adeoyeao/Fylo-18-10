@@ -3,6 +3,7 @@ Landing page: Fylo
 Code and document samples for Huddle, a landing page built with React and Next.js
 
 Dependencies 
+
 React Hooks: useState for manipulating the UI of controlled inputs. 
 Next: Static Site Generation 
 Express: Server Framework 
