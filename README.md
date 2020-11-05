@@ -1,6 +1,6 @@
 Landing page: Fylo
 
-Code and document samples for Huddle, a landing page built with React and Next.js
+Code and document samples for Fylo, a landing page built with React and Next.js
 
 Dependencies 
 
